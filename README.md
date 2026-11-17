@@ -33,8 +33,7 @@ El prototipo no constituye un dispositivo médico ni está destinado a utilizars
 
 El diagrama de contexto representa la interacción entre el sistema de regulación térmica, el usuario y los elementos externos que intervienen en su funcionamiento.
 
-![Diagrama de contexto](<img width="1007" height="455" alt="diagramcontex" src="https://github.com/user-attachments/assets/7c774478-e589-4c4e-bcd3-63b6a4d30d59" />
-)
+![Diagrama de contexto](diagramcontex.png)
 
 ## 4. Diagrama de bloques del diseño
 
