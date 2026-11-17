@@ -41,8 +41,7 @@ El sistema está compuesto por una etapa de medición, una etapa de procesamient
 
 El sensor LM35 proporciona la medición de temperatura al ESP32. El controlador PID procesa esta información y determina la potencia que debe suministrarse al foco calefactor mediante el módulo dimmer RobotDyn.
 
-![Diagrama de bloques](<img width="655" height="378" alt="diagrambloq" src="https://github.com/user-attachments/assets/06ca1b6f-5d27-4dc6-8fc9-cd1f825b54fb" />
-)
+![Diagrama de bloques](diagrambloq.png)
 
 ## 5. Máquina de estados
 
@@ -50,8 +49,7 @@ La máquina de estados describe la secuencia de funcionamiento del sistema, desd
 
 El ESP32 realiza la lectura del sensor, ejecuta el algoritmo PID y actualiza la potencia del elemento calefactor. Durante este proceso, supervisa las condiciones de seguridad y puede activar el estado de alarma cuando detecta una condición anormal.
 
-![Máquina de estados](<img width="614" height="815" alt="maqestados" src="https://github.com/user-attachments/assets/eaffdc0a-9d1e-4a5b-8681-da0da07a15bd" />
-)
+![Máquina de estados](maqestados.png)
 
 ## 6. Interfaces
 
